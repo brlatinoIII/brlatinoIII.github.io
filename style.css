@@ -1,3 +1,36 @@
+/* CSS formatting for the content-container */
+.content-container {
+  width: 60%;                     /* center column width */
+  margin: 0 auto;                 /* center horizontally */
+  padding: 0.5in;                 /* internal padding if needed */
+  background-color: #ffffff;    /* white background for text */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* optional subtle shadow for depth */
+}
+body {
+  background: linear-gradient(
+    to right,
+    #CC0000,           /* very edge color */
+    #201c1c 20%,       /* near content start */
+    #ffffff 20% 80%,   /* center content stays white */
+    #201c1c 80%,       /* near content end */
+    #CC0000            /* very edge color */
+  );
+}
+
+/* Stylization of my website title */
+.site-title {
+  text-align: center;  /* centers the text horizontally */
+  margin-top: 0.5in;   /* space from the top */
+}
+
+.email {
+  text-align: center;    /* centers the text */
+  margin-top: 0.2in;     /* space below your name */
+  font-size: 1em;        /* optional: makes text a reasonable size */
+  color: #333333;      /* optional: dark gray for subtle style */
+}
+
+
 /* Global page setup */
 body {
   margin: 0;
